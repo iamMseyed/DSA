@@ -5,10 +5,11 @@ class Main {
         
         System.out.println("""
         Printing pattern like : (n row n column)
-        ****
-        ****
-        ****
-        ****
+        * * * *
+        * * * *
+        * * * *
+        * * * *
+        .....
         """);
         System.out.print("Enter number of rows and cols to be taken (enter for row or col, it would be considered same for both):");
         int row = s.nextInt();
