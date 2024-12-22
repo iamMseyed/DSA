@@ -12,12 +12,15 @@ class Main {
         """);
         System.out.print("Enter number of rows and cols to be taken (enter for row or col, it would be considered same for both):");
         int row = s.nextInt();
-        
-        for(int i = 0; i<row;i++){
-            for(int j = 0;j<row;j++){
+        printPattern(row);
+    }
+    public static void printPattern(int count){
+        for(int i = 0; i<count;i++){
+            for(int j = 0;j<count;j++){
                 System.out.print("* ");
             }
             System.out.println("");
         }
     }
 }
+
