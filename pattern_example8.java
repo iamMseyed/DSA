@@ -4,11 +4,7 @@ class Main {
         Scanner s = new Scanner(System.in);
         
         System.out.println("""
-        Printing pattern like a tree a
-           *
-          ***
-         *****
-        *******
+        Printing reverse * diamond
         """);
         System.out.print("Enter how many rows you want to get printed:");
         int row = s.nextInt();
