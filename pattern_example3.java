@@ -4,7 +4,7 @@ class Main {
         Scanner s = new Scanner(System.in);
         
         System.out.println("""
-        Printing pattern like : (whatever row, same *)
+        Printing pattern like : (whatever row, number++)
         1
         1 2
         1 2 3
